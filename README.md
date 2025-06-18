@@ -6,7 +6,7 @@
 Целью проекта является разработка методики для анализа текстовых данных из различных источников (социальные сети, новостные агрегаторы, научные статьи) с последующим выделением ключевых тем, прогнозированием их развития и сравнением полученных результатов между источниками.
 
 ## Структура проекта
-
+'''
 01_collectors/
 ├── 01_vk_data.ipynb # Сбор данных из VKontakte
 ├── 02_cyberleninka_data.ipynb # Сбор данных из Cyberleninka
@@ -17,7 +17,7 @@
 04_topic_modeling.ipynb # Тематическое моделирование: BERTopic (VK, Google News) и LDA (Cyberleninka)
 05_forecasting.ipynb # Прогнозирование трендов топ-5 тем для всех источников
 06_comparison_between_sources.ipynb # Сравнение результатов между источниками по различным метрикам
-
+'''
 ## Порядок запуска ноутбуков
 
 1. `01_collectors/01_vk_data.ipynb`
@@ -64,3 +64,17 @@
 1. Откройте каждый `.ipynb` файл в Google Colab.
 2. Следуйте инструкциям в блокноте.
 3. Запускайте ноутбуки строго в указанном выше порядке.
+
+## Открыть в Google Colab
+
+| Ноутбук | Ссылка |
+|---------|--------|
+| Сбор данных VK | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/01_vk_data.ipynb) |
+| Сбор данных Cyberleninka | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/02_cyberleninka_data.ipynb) |
+| Сбор данных Google News | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/03_google_news_data.ipynb) |
+| Анализ Twitter данных | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_twitter_data.ipynb) |
+| Предобработка данных | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/02_preprocessing.ipynb) |
+| Выделение ключевых слов (Cyberleninka) | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/03_keywords.ipynb) |
+| Тематическое моделирование | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/04_topic_modeling.ipynb) |
+| Прогнозирование трендов | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/05_forecasting.ipynb) |
+| Сравнение источников | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/06_comparison_between_sources.ipynb) |
