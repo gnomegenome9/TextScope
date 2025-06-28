@@ -8,9 +8,9 @@
 ## Структура проекта
 ```bash
 01_collectors/
-├── 01_vk_data.ipynb # Сбор данных из VKontakte
-├── 02_cyberleninka_data.ipynb # Сбор данных из Cyberleninka
-├── 03_google_news_data.ipynb # Сбор данных из Google News
+├── vk.ipynb # Сбор данных из VKontakte
+├── cyberleninka.ipynb # Сбор данных из Cyberleninka
+├── gnews.ipynb # Сбор данных из Google News
 01_twitter_data.ipynb # Анализ готовых датасетов с Kaggle (Twitter)
 02_preprocessing.ipynb # Предобработка данных из VK, Cyberleninka, Google News
 03_keywords.ipynb # Выделение ключевых слов для Cyberleninka
@@ -20,9 +20,9 @@
 ```
 ## Порядок запуска ноутбуков
 
-1. `01_collectors/01_vk_data.ipynb`
-2. `01_collectors/02_cyberleninka_data.ipynb`
-3. `01_collectors/03_google_news_data.ipynb`
+1. `01_collectors/vk.ipynb`
+2. `01_collectors/cyberleninka.ipynb`
+3. `01_collectors/gnews.ipynb`
 4. `01_twitter_data.ipynb`
 5. `02_preprocessing.ipynb`
 6. `03_keywords.ipynb`
@@ -69,9 +69,9 @@
 
 | Ноутбук | Ссылка |
 |---------|--------|
-| Сбор данных VK | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/01_vk_data.ipynb) |
-| Сбор данных Cyberleninka | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/02_cyberleninka_data.ipynb) |
-| Сбор данных Google News | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/03_google_news_data.ipynb) |
+| Сбор данных VK | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/vk.ipynb) |
+| Сбор данных Cyberleninka | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/cyberleninka.ipynb) |
+| Сбор данных Google News | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_collectors/gnews.ipynb) |
 | Анализ Twitter данных | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/01_twitter_data.ipynb) |
 | Предобработка данных | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/02_preprocessing.ipynb) |
 | Выделение ключевых слов (Cyberleninka) | [Открыть](https://colab.research.google.com/github/gnomegenome9/TextScope/blob/main/03_keywords.ipynb) |
