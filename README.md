@@ -36,7 +36,7 @@
 
 - **VK API**
 - **Google News**
-- **Cyberleninka API**
+- **Cyberleninka**
 - **Kaggle Datasets**:
   - [Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140)
   - [Tweets Dataset](https://www.kaggle.com/datasets/bhavikjikadara/tweets-dataset)
@@ -59,6 +59,16 @@
   `Plotly`, `ipywidgets`
 
 ## Инструкции по запуску
+
+В корне Google Диска (`MyDrive`) должен находиться текстовый файл `keywords.txt`, содержащий ключевые слова или фразы для поиска.
+Формат — по одному слову или фразе на строку:
+```
+изменение климата
+Арктика
+устойчивое развитие
+```
+
+Все результаты, графики и модели сохраняются в папку `TextScope`, которая создается автоматически.
 
 Проект разрабатывался и тестировался в среде **Google Colab**. Все необходимые зависимости устанавливаются внутри ноутбуков. Для запуска:
 1. Откройте каждый `.ipynb` файл в Google Colab.
